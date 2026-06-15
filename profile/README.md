@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/twigo/twigo/main/apps/twigo/src-tauri/icons/128x128@2x.png" width="120" alt="Twigo" />
 </p>
 <h1 align="center">Twigo</h1>
-<p align="center"><b>A desktop IDE for NATS - work with your server the way Lens does for Kubernetes.</b></p>
+<p align="center"><b>A fast, keyboard-first desktop IDE for NATS.</b></p>
 
 Twigo is a fast, keyboard-first, open-source desktop app for
 [NATS](https://nats.io). It imports your existing `nats` CLI contexts and gives
