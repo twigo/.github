@@ -7,15 +7,15 @@
 Open source, built with Tauri and Rust. It reads the contexts your `nats` CLI
 already has, so connection details never live in two places.
 
-- **Messaging** — subject explorer built from live traffic, subscriptions,
-  publish and request/reply, a JSON/text/hex viewer that diffs any two messages
-- **JetStream** — streams and consumers, plus a message browser that never
-  creates a consumer and never moves an ack floor
-- **KV and Object Store** — both read and write, with KV revision history
-- **Payload codecs** — Protobuf, MessagePack and CBOR, decoding _and_ encoding
+- **Messaging** — a subject explorer discovered from live traffic, subscriptions,
+  publish and request/reply, and a viewer that diffs any two messages
+- **JetStream** — streams and consumers, plus a message browser safe to point at
+  production: it never disturbs a consumer's position in the stream
+- **KV and Object Store** — read and write both, with KV revision history
+- **Payload codecs** — Protobuf, MessagePack and CBOR, decoded _and_ encoded
 - **Responders** — mock a service by answering a subject from a template
-- **Monitoring** — varz, connz and jsz, with throughput and consumer lag
-  charted over time rather than sampled once
+- **Monitoring** — server health with throughput and consumer lag charted over
+  time, rather than a single reading
 
 ### Get it
 
